@@ -1,0 +1,98 @@
+/* color salmón #FA8258, color verde clarito #81F781, */
+
+/*formato general del body*/
+body {/*formato general del body*/
+	margin: 0 auto; /*margen*/
+	padding: 0; /*relleno*/
+	background-color: #FA8258; /*color de fondo*/
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;/*color de fuente*/
+}
+
+/*formato general del header*/
+header {/*formato general del header*/
+	text-align: right; /*alineamiento del texto*/
+	padding: 2rem; /*relleno*/
+}
+header h1 {/*formato detallado del título h1*/
+	padding-bottom: 1rem; /*relleno inferior*/
+}
+
+/*formato general section panda one*/
+.panda-one .col-12 {/*formato detallado de la columna 12*/
+	padding: 0; /*relleno*/
+}
+.panda-one .panda-watching-me { /*formato general foto panda watching me*/
+	width: 100%; /*ancho*/
+	border-bottom: 1rem solid #FA8258; /*borde inferior*/
+}
+
+/*formato general section about panda*/
+.about-panda { /*formato detallado de la section about panda*/
+	background-color: #81F781; /*color de fondo*/
+	border-top: 2rem solid #81F781; /*borde superior*/
+	border-bottom: 2rem solid #81F781; /*borde inferior*/
+}
+.about-panda .col-12 { /*formato detallado de la columna 12*/
+	width: 50%; /*ancho*/
+	padding: 0; /*relleno*/
+	background-color: #FA8258; /*color de fondo*/
+	margin-left: 25%; /*margen izquierdo*/
+}
+.about-panda h3,p { /*formato general del título y párrafo*/
+	text-align: center; /*alineación texto*/
+}
+.about-panda h3 { /*formato detallado del h3*/
+	padding: 1rem; /*relleno*/
+}
+.about-panda p { /*formato detallado del p*/
+	padding-bottom: 1rem;/*relleno inferior*/
+}
+
+/*formato general section about two*/
+.panda-two .col-12 { /*formato detallado de la columna 12*/
+	padding: 0; /*relleno*/
+}
+.panda-two .two-pandas { /*formato detallado de la foto dos*/
+	width: 100%; /*ancho*/
+	border-top: 1.3rem solid #FA8258; /*borde inferior*/	
+}
+
+/*formato general section pictures*/
+.pictures { /*formato detallado de la section pictures*/
+	border-top: 1.3rem solid #FA8258; /*borde superior*/
+	background-color: #81F781; /*color de fondo*/
+	text-align: center; /*alineación texto*/
+	font-size: 1.25rem; /*tamaño de fuente*/
+	padding: 3rem 2rem 1.5rem 2rem; /*relleno*/
+}
+
+/*formato general section mini pictures*/
+.mini-pictures { /*formato detallado de la section mini pictures*/
+	background-color: #81F781;/*color de fondo*/
+	border-bottom: 1.3rem solid #FA8258; /*borde inferior*/
+}
+.mini-pictures .row { /*formato detallado del row*/
+	padding: 0 10rem 3rem 10rem; /*relleno*/
+}
+.mini-pictures .col-3 {/*formato detallado de la columna 3*/
+	width: 15%;/*ancho*/
+	margin-left: 3.5rem; /*margen izquierdo*/
+}
+.mini-pictures .mini {/*formato detallado mini fotos*/
+	border: 0.5rem solid #FFFFFF;/*borde*/
+}
+
+/*formato general section panda three*/
+.panda-three .col-12 {/*formato detallado de la columna 12*/
+	padding: 0; /*relleno*/
+}
+.panda-three .boring-panda { /*formato detallado de la foto tres*/
+	width: 100%; /*ancho*/
+}
+
+/*formato general del footer*/
+footer {
+	text-align: right;
+	padding-right: 1rem;
+}
